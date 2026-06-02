@@ -1,0 +1,26 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - img
+      - img
+      - img
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - img [ref=e6]
+        - generic [ref=e10]:
+          - generic [ref=e11]: Trust Foundry
+          - generic [ref=e12]: Compliance Readiness
+    - main [ref=e13]:
+      - generic [ref=e14]:
+        - heading "Sign in" [level=1] [ref=e15]
+        - paragraph [ref=e16]: We'll email you a 6-digit code. Enter it on the next screen.
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - generic [ref=e19]: Work email
+            - textbox "Work email" [active] [ref=e20]:
+              - /placeholder: you@indrasol.com
+          - button "Send code" [disabled] [ref=e21]:
+            - generic [ref=e22]: Send code
+            - img [ref=e23]
+  - button "Open Next.js Dev Tools" [ref=e30] [cursor=pointer]:
+    - img [ref=e31]
